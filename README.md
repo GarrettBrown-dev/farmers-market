@@ -8,7 +8,7 @@
 
 This practice app utilizes an app created with the `create-react-app` command and customizes it to create a page that lists important information specifying the Location a farm will be selling their produce at and based upon the month, what produce will be available. This information is hard-coded into the program and could be adjusted to be used with a database in the future. 
 
-<img src="./READMEAssets/Farmers%20Market.png" alt="Component Diagram"/>
+<img src="./READMEAssets/Farmers%20Market.jpg" alt="Component Diagram"/>
 
 # Getting Started with Create React App
 
