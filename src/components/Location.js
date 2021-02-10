@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 function Location(props){
   return(
     <>
-      <h3>{props.day}</h3>
-      <p>{props.location}</p>
-      <p>{props.hours}</p>
-      <p>{props.booth}</p>
+      <h3 class="title">{props.day}</h3>
+      <p class="details">{props.location}</p>
+      <p class="details">{props.hours}</p>
+      <p class="details">Booth: {props.booth}</p>
     </>
   )
 }

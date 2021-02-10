@@ -1,3 +1,15 @@
+# Farmers Market
+
+### "React State and Basic App practice for Epicodus 2.9.21"
+
+#### by Max Brockbank, Garrett Brown, Kevin Kirkley
+
+## Description
+
+This practice app utilizes an app created with the `create-react-app` command and customizes it to create a page that lists important information specifying the Location a farm will be selling their produce at and based upon the month, what produce will be available. This information is hard-coded into the program and could be adjusted to be used with a database in the future. 
+
+<img src="./READMEAssets/Farmers%20Market.png" alt="Component Diagram"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +51,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# 🪲 Bugs / Issues
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* None currently to note
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# ☎️ Support / Contact Details
 
-### Code Splitting
+* Please feel free to reach out to <gman9mm@live.com>, 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# ⚙️ Technologies Used
 
-### Analyzing the Bundle Size
+<details>
+  <summary>Expand Tech/tools</summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [Bootstrap Components](https://getbootstrap.com/docs/3.3/components/)
+* Javascript
+* React
+* CSS
+* Node.js
+* Google Fonts
+* 
 
-### Making a Progressive Web App
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# ©️ License & Copyright
 
-### Advanced Configuration
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2020 **_Max Brockbank_**, **_Garrett Brown_**, **_Kevin Kirkley_**, 

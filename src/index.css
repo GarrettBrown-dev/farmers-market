@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(./img/FreshVeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  margin-top: 50px;
+  color: white;
+  font-family: 'Monoton', bold;
 }
+
+.screen {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.lower-body {
+  margin-top: 60px;
+  color: white;
+}
+.title {
+  font-family: 'Monoton', bold;
+}
+.details{
+  font-family: 'Montserrat';
+}
+.crops{
+  font-family: 'Montserrat';
+}
+
+ul {
+  list-style-type: none;
+  -moz-column-count: 3;
+  -moz-column-gap: 22px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 22px;
+  column-count: 3;
+  column-gap: 22px;
+}
+

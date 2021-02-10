@@ -1,5 +1,8 @@
 import React from "react";
 import Location from "./Location";
+import {Container, Row, Col} from 'react-bootstrap';
+
+
 class LocationControl extends React.Component {
   
   constructor(props) {
@@ -60,21 +63,29 @@ class LocationControl extends React.Component {
     }
     return (
       <React.Fragment>
-        <label>
-          <b>Which day do you want to visit?</b>
-          <select
-            value ={this.state.index}
-            onChange={this.handleSelect}
-            >
-              <option disabled selected defaultValue> -- select an option -- </option>
-              {marketSchedule.map((e, index) =>
-                <option value={index}>{e.day}</option>
-              )}
-            </select>
-          {console.log(this.state)}
-          
-        </label>
-        {currentVisibleState}
+        <Container>
+          <Row>
+            <Col>
+              <label>
+                <b>Which day do you want to visit?</b><br></br>
+                <select
+                  value ={this.state.index}
+                  onChange={this.handleSelect}
+                  >
+                    <option disabled selected defaultValue> -- select an option -- </option>
+                    {marketSchedule.map((e, index) =>
+                      <option value={index}>{e.day}</option>
+                    )}
+                  </select>
+                {console.log(this.state)}
+                
+              </label>
+            </Col>
+            <Col>
+              {currentVisibleState}
+            </Col>
+          </Row>
+        </Container>
       </React.Fragment>
     )
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import Crop from "./Crops";
+import {Container, Row, Col} from 'react-bootstrap';
 
 class CropControl extends React.Component
 {
@@ -292,19 +293,27 @@ class CropControl extends React.Component
   }
   return (
     <React.Fragment>
-      <label>
-        <b>What month is it?</b>
-        <select
-          value ={this.state.index}
-          onChange={this.handleSelect}
-          >
-            <option disabled selected defaultValue> -- select and option --</option>
-            {availableProduce.map((e, index) => 
-              <option value={index}>{e.month}</option>
-            )}
-          </select>
-      </label>
-      {currentVisibleState}
+      <Container>
+        <Row>
+          <Col>
+            <label>
+              <b>What month is it?</b><br></br>
+              <select
+                value ={this.state.index}
+                onChange={this.handleSelect}
+                >
+                  <option disabled selected defaultValue> -- select and option --</option>
+                  {availableProduce.map((e, index) => 
+                    <option value={index}>{e.month}</option>
+                  )}
+                </select>
+            </label>
+          </Col>
+          <Col>
+            {currentVisibleState}
+          </Col>
+        </Row>
+      </Container>
     </React.Fragment>
   )
 }
